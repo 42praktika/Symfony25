@@ -14,7 +14,7 @@
 
 
 <div class="example-wrapper">
-    <h1>Hello, I am {{ name }}! ✅</h1>
+    <h1>{{ greeting }} I am {{ name }}! ✅</h1>
 
     My friends are: {{ friends | filter(f=>f!=name) | join(', ') }}
 
